@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>SASS Landing Page</title>
+</head>
+<body>
+    <div class="h-[140vh] bg-[url('assets/bg.svg')] md:h-[120vh] bg-cover bg-no-repeat bg-center">
+        <!-- navbar -->
+    <nav
+    class="w-full flex justify-between md:justify-around items-center p-6 px-8 text-black "
+  >
+    <div>
+      <img src="/assets/Logo.png" alt="logo"  class="h-[50px] w-[120px]"/>
+    </div>
+    <div class="md:hidden">
+      <a class="text-4xl text-white" href="#">&#8801;</a>
+    </div>
+    <div class="w-[60vw] text-white md:flex gap-6 justify-between items-center hidden ">
+      <ul class="w-[45vw] flex justify-between gap-6 ">
+        <li>Home</li>
+        <li>Service</li>
+        <li>Pricing</li>
+        <li>Testimonial</li>
+        <li>Blogs</li>
+      </ul>
+
+      <div class="flex gap-2">
+        <button
+          class="w-[8rem] border-[2px] bg-gray-100 border-gray-100 text-black px-4 py-1 rounded-[2px] font-medium " >
+          FREE TRAIL
+        </button>
+      </div>
+  </nav>
+  <!-- navBar end -->
+
+  <!-- hero section -->
+  <div class=" h-[125vh] md:h-[70vh]  w-full flex justify-evenly items-center flex-col md:justify-evenly md:flex-row p-6 ">
+    <div class=" h-[80%] w-[full] text-white md:w-[35vw] flex flex-col text-center md:text-start justify-between  gap-3  ">
+        <h1 class=" text-[2.2rem]  md:text-[2.5rem] font-[600] ">Codext One of<br>
+            the base<br>
+            System in SASS</h1>
+        <p class="">
+            Lorem ipsum dolor sit, amet consectetur <br>adipisicing elit. In, fugit reprehenderit<br> voluptatem facilis officia tenetur?
+            
+        </p>
+        <button class="h-[7vh] w-[90%] bg-blue-600 text-white rounded-xl md:h-[3rem] md:w-[20vw]">Try a Live Demo</button>
+    </div>
+    <div class="h-[65vh] bg-[url('/assets/30495 [Converted]-01(1).svg')] bg-contain bg-no-repeat bg-center   ">
+        <img src="/assets/30495 [Converted]-01(1).svg" alt="" class="h-[100%] w-[50rem] md:w-[40vw] p-6 ">
+    </div>
+  </div>
+
+  <!-- hero section end -->
+    </div>
+
+    <!-- operating system -->
+    <div class=" h-[50rem] md:h-[90vh]  w-full flex justify-between items-center flex-col md:justify-around md:flex-row-reverse mt-3 p-6  ">
+        <div class=" h-[full] w-[full] md:w-[40vw] flex flex-col text-center md:text-start justify-evenly  gap-2  ">
+             <h1 class=" text-[1.5rem] md:text-[2rem] font-bold ">It's helpful for operating system</h1>
+             <div class="ultrafast">
+                  <h2 class="text-xl font-bold">Ultrafast & Secure</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore minima odit optio facere, repellendus sunt.</p>
+             </div>
+             <div class="customization">
+                  <h2 class="text-xl font-bold">Allow Customization</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore minima odit optio facere, repellendus sunt.</p>
+             </div>
+             <div class="contract">
+                  <h2 class="text-xl font-bold">Smart Contract</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore minima odit optio facere, repellendus sunt.</p>
+             </div>
+        </div>
+        <div class="">
+            <img src="/assets/Saas illustration-01.svg" alt="" class="h-[100%] w-[50rem] md:w-[40vw] p-6   ">
+        </div>
+   </div>
+   <!-- operating system ends here -->
+
+   <!-- footer section -->
+   <footer class=" h-[100%] md:h-[70vh]  w-full flex justify-between items-center flex-col md:justify-around gap-8 mt-3 p-6  ">
+    <h1 class="  text-[1.6rem] text-center md:text-[2rem] font-bold ">We provide best feature for customer</h1>
+    <div class="h-[full] w-[48vh] md:h-[50vh] md:w-[80vw] flex flex-col justify-evenly md:flex-row items-center gap-6 ">
+         <div class=" h-[40vh] w-[50vw] md:h-[35vh] md:w-[15vw] flex flex-col justify-between items-center rounded-2xl border-[2px] border-black">
+              <div class="h-[70px] w-[70px] bg-pink-200 rounded-full">
+                   <img src="/assets/web-developing.svg" class="h-[50px] w-[50px] pt-4 pl-4">
+              </div>
+              <div class="flex flex-col items-center text-center rounded-2xl" style="background-color: blue; color: white; ">
+                   <h3 class="font-bold">Clean Code</h3>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, asperiores!</p>
+              </div>
+         </div>
+         <div class=" h-[40vh] w-[50vw] md:h-[35vh] md:w-[15vw] flex flex-col justify-between items-center rounded-2xl border-[2px] border-black">
+              <div class="h-[70px] w-[70px] bg-orange-200 rounded-full">
+                   <img src="/assets/data-analytics.svg" class="h-[50px] w-[50px] pt-4 pl-4">
+              </div>
+              <div class="flex flex-col items-center text-center rounded">
+                   <h3 class="font-bold">Data Analytics</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, error.</p>
+              </div>
+         </div>
+         <div class=" h-[40vh] w-[50vw] md:h-[35vh] md:w-[15vw] flex flex-col justify-between items-center rounded-2xl border-[2px] border-black">
+              <div class="h-[70px] w-[70px] bg-green-200 rounded-full">
+                   <img src="/assets/secured-profile.svg" class="h-[50px] w-[50px] pt-4 pl-4" >
+              </div>
+              <div class="flex flex-col items-center text-center rounded">
+                   <h3 class="font-bold">Fully Secured</h3>
+                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, doloribus.</p>
+              </div>
+         </div>
+         <div class=" h-[40vh] w-[50vw] md:h-[35vh] md:w-[15vw] flex flex-col justify-between items-center rounded-2xl border-[2px] border-black">
+              <div class="h-[70px] w-[70px] bg-purple-200 rounded-full">
+                   <img src="/assets/support.svg" class="h-[50px] w-[50px] pt-4 pl-4">
+              </div>
+              <div class="flex flex-col items-center text-center rounded">
+                   <h3 class="font-bold">24/7 support</h3>
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, beatae.</p>
+              </div>
+         </div>
+    </div>
+</footer>
+    
+    
+</body>
+</html>
